@@ -79,7 +79,7 @@ Open:
 - `GET /history/training-runs`
 - `GET /history/predictions`
 
-## Interview Explanation
+## Explanation
 
 `backend/ml_pipeline.py` is the ML module. It reads data, normalizes the binary target, removes ID columns, imputes missing values, scales numeric fields, one-hot encodes categories, trains the selected model, calculates metrics, saves a `joblib` artifact, and generates explanation factors.
 
